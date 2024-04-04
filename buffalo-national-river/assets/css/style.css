@@ -1,0 +1,56 @@
+/* styles.css */
+
+body {
+    
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 00;
+    font-style: normal;
+    background-color: #D4D4AD;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #3C542C;
+    color: #DCBC34;
+    padding: 20px;
+    text-align: center;
+}
+
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    margin-bottom: 30px;
+}
+
+.content p {
+    margin-bottom: 20px;
+}
+
+.bibliography {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-bottom: 30px; /* Added margin-bottom */
+}
+
+.bibliography h2 {
+    margin-top: 30px;
+}
+
+.bibliography-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.bibliography-list li {
+    margin-bottom: 10px;
+}
+
+.fun-facts {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-bottom: 30px; /* Added margin-bottom */
+}
