@@ -133,5 +133,44 @@ body {
   border-radius: 5px;
 }
 
+#carousel{
+  text-align: left;
+  width: fit-content;
+  height: fit-content;
+  background-color: grey;
+  width: 90vw;
+  margin:auto;
+  padding: 20px;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+
+footer{
+  background-color:#566c2b;
+  padding:20px;
+  margin-top: 40px;
+  
+}
+
+#brandimg{
+  width: 250px;
+  height:150px;
+  float: right;
+}
+
+#footernav{
+  float: right;
+  text-align: right;
+}
+
+footer a{
+  display: block;
+}
+
+#footercopy{
+  align-items: center;
+  text-align: center;
+  display: inline;
+}
 
 
