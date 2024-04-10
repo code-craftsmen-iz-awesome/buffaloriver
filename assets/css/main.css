@@ -153,9 +153,10 @@ footer{
 }
 
 #brandimg{
-  width: 250px;
-  height:150px;
+  width: 350px;
+  height:200px;
   float: right;
+  margin-right: 25px;
 }
 
 #footernav{
@@ -172,5 +173,4 @@ footer a{
   text-align: center;
   display: inline;
 }
-
 
