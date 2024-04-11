@@ -117,7 +117,7 @@ body {
   font-style: normal;
 }
 
-.bg-transparent{
+.bg-transparent {
   background: rgba(255, 255, 255, 0.03);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -126,23 +126,17 @@ body {
   margin-bottom: -50px;
 }
 
-navbar-custom{
-  
-}
-
-#navbanner{
-  background-color: aqua;
-}
-
 .nav-link {
   color: white;
   font-size: 25px;
   margin-right: 20px;
-  
 }
 
-.navbar-nav {
-  margin-bottom: 80px;
+.navbar-brand{
+  position: absolute;
+  margin-top: -20px;
+  margin-left: -50px;
+ 
 }
 
 #topcontent {
