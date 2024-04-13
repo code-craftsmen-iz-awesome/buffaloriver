@@ -1,0 +1,32 @@
+/*Add this to all the pages css EXCEPT the homepage*/
+#topcontent{
+    background-image: none;
+    height: 35vh;
+}
+
+.container-fluid{
+    background-color: #566c2b;
+   
+}
+.navbar{
+    padding: 0%;
+}
+
+#banner h1{
+    font-size: 80px;
+}
+
+canvas {
+    float: left;
+  }
+
+  #msg {
+    display: none;
+  }
+
+  #overview{
+    width: fit-content;
+    height: fit-content;
+  }
+
+ 

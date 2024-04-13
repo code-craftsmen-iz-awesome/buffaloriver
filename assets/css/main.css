@@ -117,13 +117,20 @@ body {
   font-style: normal;
 }
 
+a {
+  color: white;
+}
+
 .bg-transparent {
   background: rgba(255, 255, 255, 0.03);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(3.9px);
   -webkit-backdrop-filter: blur(3.9px);
-  margin-bottom: -50px;
+}
+
+.container-fluid {
+  max-height: 70px;
 }
 
 .nav-link {
@@ -132,11 +139,9 @@ body {
   margin-right: 20px;
 }
 
-.navbar-brand{
-  position: absolute;
-  margin-top: -20px;
-  margin-left: -50px;
- 
+.brandlogo {
+  margin-top: 150px;
+  margin-left: 100px;
 }
 
 #topcontent {
@@ -190,55 +195,38 @@ body {
   height: 150px;
   display: grid;
   align-items: center;
-  transition: 1s ease;
+  font-size: 40px;
+  text-decoration: underline;
 }
 
-#bh1:hover {
+#bh1 {
   background-image: url(../resources/img/rentalsbtn.jpg);
-  background-repeat: no-repeat;
-  background-size: 300px 150px;
-  -webkit-text-stroke-width: 0.7px;
-  -webkit-text-stroke-color: black;
+  background-size: cover;
 }
 
-#bh2:hover {
+#bh2 {
   background-image: url(../resources/img/levelbtn.jpg);
-  background-repeat: no-repeat;
-  background-size: 300px 150px;
-  -webkit-text-stroke-width: 0.7px;
-  -webkit-text-stroke-color: black;
+  background-size: cover;
 }
 
-#bh3:hover {
+#bh3 {
   background-image: url(../resources/img/cabinbtn.jpg);
-  background-repeat: no-repeat;
-  background-size: 300px 150px;
-  -webkit-text-stroke-width: 0.7px;
-  -webkit-text-stroke-color: black;
+  background-size: cover;
 }
 
-#bh4:hover {
+#bh4 {
   background-image: url(../resources/img/hatmockup.jpg);
-  background-repeat: no-repeat;
-  background-size: 300px 150px;
-  -webkit-text-stroke-width: 0.7px;
-  -webkit-text-stroke-color: black;
+  background-size: cover;
 }
 
-#bh5:hover {
+#bh5 {
   background-image: url(../resources/img/historybtn.jpg);
-  background-repeat: no-repeat;
-  background-size: 300px 150px;
-  -webkit-text-stroke-width: 0.7px;
-  -webkit-text-stroke-color: black;
+  background-size: cover;
 }
 
-#bh6:hover {
+#bh6 {
   background-image: url(../resources/img/aboutbtn.jpg);
-  background-repeat: no-repeat;
-  background-size: 300px 150px;
-  -webkit-text-stroke-width: 0.7px;
-  -webkit-text-stroke-color: black;
+  background-size: cover;
 }
 
 #banner2 {
@@ -293,30 +281,53 @@ body {
   max-width: 900px;
 }
 
+
+
 footer {
   background-color: #566c2b;
   padding: 20px;
   margin-top: 40px;
+  height: 270px;
+  color: black;
 }
 
 #brandimg {
-  width: 350px;
-  height: 200px;
   float: right;
   margin-right: 25px;
 }
 
+.brandimgpark{
+  width: 450px;
+  height: 260px;
+  margin-top: -110px;
+}
+
+#mapfooter{
+  margin-top: -80px;
+
+}
+
 #footernav {
-  float: right;
-  text-align: right;
+  text-align: center;
 }
 
 footer a {
-  display: block;
+  margin: 5px;
+  text-decoration: underline;
+  color: black;
 }
 
 #footercopy {
-  align-items: center;
+  background-color: #566c2b;
   text-align: center;
-  display: inline;
+}
+
+#footercopy a{
+  margin-left: 5px;
+  color: black;
+}
+
+#footercopy p{
+  margin: 0%;
+  color: black;
 }
