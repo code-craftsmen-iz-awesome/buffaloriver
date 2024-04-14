@@ -12,6 +12,10 @@
     padding: 0%;
 }
 
+#msg{
+    display: none;
+}
+
 #banner h1{
     font-size: 80px;
 }
