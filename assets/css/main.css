@@ -260,7 +260,6 @@ a {
 }
 
 #carousel {
-  text-align: left;
   width: fit-content;
   height: fit-content;
   background-color: grey;
@@ -280,8 +279,6 @@ a {
   max-height: 500px;
   max-width: 900px;
 }
-
-
 
 footer {
   background-color: #566c2b;

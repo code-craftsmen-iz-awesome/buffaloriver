@@ -8,7 +8,7 @@
       content="Tariq Jones, Kalyn Daughtry, Auriel DeCarmon, Carson Smith"
     />
     <!--Sorry if I misspelled your names-->
-    <title>153 Outfitters - Water Levels</title>
+    <title>153 Outfitters - Water Levels - Carver</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,20 +21,10 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdn.jsdelivr.net/npm/@accessible360/accessible-slick@1.0.1/slick/slick.min.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdn.jsdelivr.net/npm/@accessible360/accessible-slick@1.0.1/slick/accessible-slick-theme.min.css"
-    />
     <link href="assets/css/main.css" rel="stylesheet" />
     <link href="assets/css/waterlevels.css" rel="stylesheet" />
   </head>
-  <body>
+  <body onload="GetCarver()">
     <div id="topcontent">
       <!--Nav Bar Start-->
       <nav class="navbar navbar-expand-md bg-transparent navbar-custom">
@@ -45,7 +35,6 @@
             src="assets/resources/img/nostrokes_finaldraft-01.png"
             width="230"
             height="230"
-            
           />
           <button
             class="navbar-toggler"
@@ -61,8 +50,8 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ms-auto">
               <a class="nav-link" href="homepage.html">Home</a>
-              <a class="nav-link disabled" href="#">Water Levels</a>
-              <a class="nav-link" href="rentals.html">Rentals</a>
+              <a class="nav-link" href="waterlevels.html">Water Levels</a>
+              <a class="nav-link" href="#">Rentals</a>
               <a class="nav-link" href="#">Lodging</a>
               <a class="nav-link" href="#">History</a>
               <a class="nav-link" href="#">About</a>
@@ -74,8 +63,15 @@
     </div>
 
     <!--Banner Start-->
-    <div id="banner"><h1>Water Levels</h1></div>
+    <div id="banner"><h1>Water Levels - Carver</h1></div>
     <!--Banner End-->
+    <!--Overview Start-->
+    <div id="overview">
+      <canvas id="chartjs-0" width="500" height="500"></canvas>
+      <div id="msg"></div>
+    </div>
+    <!--Overview End-->
+
     <!--Buttons Start-->
     <div class="container containterbuttons">
       <!--Row 1-->
@@ -142,6 +138,11 @@
     </div>
 
     <!--Footer End-->
+    <script src="assets/js/carver.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

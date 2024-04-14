@@ -1,7 +1,7 @@
 /*Add this to all the pages css EXCEPT the homepage*/
 #topcontent{
     background-image: none;
-    height: 35vh;
+    height: 25vh;
 }
 
 .container-fluid{
@@ -15,18 +15,18 @@
 #banner h1{
     font-size: 80px;
 }
-
-canvas {
-    float: left;
-  }
-
-  #msg {
-    display: none;
-  }
-
   #overview{
     width: fit-content;
     height: fit-content;
+    padding:100px;
+    background-color: white;
   }
 
- 
+ #bh1, #bh2, #bh3, #bh4{
+  background-image: none;
+  margin-top: 50px;
+ }
+
+ #bh3, #bh4{
+  margin-bottom: 300px;
+ }
