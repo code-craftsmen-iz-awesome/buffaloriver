@@ -19,35 +19,38 @@
   margin-top: 40px;
 }
 
-#plink{
-    text-align: center;
-    font-size: 20px;
+#plink {
+  text-align: center;
+  font-size: 20px;
 }
 
-#overview{
-    display: flex;
-    justify-content: space-between;
+#overview h2 {
+  font-size: 100px;
 }
 
-#overview h2{
-   font-size: 100px;
-   margin: auto;
-   padding-right:100px ;
+table {
+  display: flex;
+  justify-content: center;
 }
 
-#pricing{
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-   
+#overview.shuttle {
+  background-color: #946c13;
 }
 
-table{
-    padding-left: 20px;
-    
+#shuttlep {
+  max-width: 870px;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
-#overview.shuttle{
-    background-color: #946C13;
+#overview.shuttle td{
+  padding-right:50px;
+}
 
+#buffalorivermap{
+  max-width: 90vw;
+  display: block;
+  margin:auto;
+  padding-top: 40px;
 }

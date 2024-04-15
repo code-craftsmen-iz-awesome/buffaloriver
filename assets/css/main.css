@@ -344,9 +344,31 @@ footer a {
   .brandlogo{
     width:200px;
     height:200px;
+    margin-left:70px;
   }
 
   .nav-link{
     font-size: 18px;
   }
+}
+
+@media screen and (max-height: 1100px){
+
+
+
+}
+
+@media screen and (max-width:770px){
+
+.brandlogo{
+  margin-top:1px;
+  margin-left:1px;
+  width:120px;
+  height:120px;
+}
+
+.container-fluid{
+  max-height: fit-content;
+}
+  
 }
