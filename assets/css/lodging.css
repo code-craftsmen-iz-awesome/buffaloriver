@@ -44,13 +44,7 @@
     text-align: center;
   }
   
-  #overview.shuttle td{
+  #overview.amenities td{
     padding-right:50px;
   }
   
-  #buffalorivermap{
-    max-width: 90vw;
-    display: block;
-    margin:auto;
-    padding-top: 40px;
-  }
