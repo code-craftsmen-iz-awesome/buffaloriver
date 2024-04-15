@@ -293,15 +293,14 @@ footer {
   margin-right: 25px;
 }
 
-.brandimgpark{
+.brandimgpark {
   width: 450px;
   height: 260px;
   margin-top: -110px;
 }
 
-#mapfooter{
+#mapfooter {
   margin-top: -80px;
-
 }
 
 #footernav {
@@ -319,12 +318,35 @@ footer a {
   text-align: center;
 }
 
-#footercopy a{
+#footercopy a {
   margin-left: 5px;
   color: black;
 }
 
-#footercopy p{
+#footercopy p {
   margin: 0%;
   color: black;
+}
+
+/*Media Queries*/
+
+@media screen and (max-width: 1370px) {
+  iframe {
+    width: 300px;
+    height: 190px;
+  }
+
+  .brandimgpark {
+    width: 350px;
+    height: 200px;
+  }
+
+  .brandlogo{
+    width:200px;
+    height:200px;
+  }
+
+  .nav-link{
+    font-size: 18px;
+  }
 }
