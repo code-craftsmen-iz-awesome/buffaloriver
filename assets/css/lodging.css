@@ -43,7 +43,10 @@
     margin-bottom: 20px;
     text-align: center;
   }
-  
+  li {
+    display: flex;
+    justify-content: center;
+  }
   #overview.amenities td{
     padding-right:50px;
   }
