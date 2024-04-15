@@ -1,0 +1,56 @@
+#topcontent {
+    background-image: none;
+    height: 25vh;
+  }
+  
+  .container-fluid {
+    background-color: #566c2b;
+  }
+  .navbar {
+    padding: 0%;
+  }
+  
+  #banner h1 {
+    font-size: 80px;
+  }
+  
+  #carousel {
+    background: none;
+    margin-top: 40px;
+  }
+  
+  #plink {
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  #overview h2 {
+    font-size: 100px;
+  }
+  
+  table {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #overview.amenities {
+    background-color: #946c13;
+  }
+  
+  #amenitiesp {
+    max-width: 870px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  #overview.shuttle td{
+    padding-right:50px;
+  }
+  
+  #buffalorivermap{
+    max-width: 90vw;
+    display: block;
+    margin:auto;
+    padding-top: 40px;
+  }
