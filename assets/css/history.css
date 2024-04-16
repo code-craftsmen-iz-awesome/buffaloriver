@@ -2,3 +2,24 @@
     background-image: none;
     height: 25vh;
   }
+
+.container-fluid{
+    background-color: #566c2b;
+   
+}
+.navbar{
+    padding: 0%;
+}
+
+
+.history {
+  max-width: 1000px;
+  margin: auto;
+}
+
+#overview{
+  width: 70vw;
+  margin-bottom: 350px;
+}
+
+
