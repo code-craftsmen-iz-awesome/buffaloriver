@@ -109,7 +109,22 @@
 }
 
 */
-
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+.container{
+  margin:auto;
+  padding:40px;
+}
+imag{
+  max-width:100%;
+  height:auto;
+}
 body {
   background-color: #d4d4ad;
   font-family: "Fira Sans", sans-serif;
