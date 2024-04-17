@@ -54,3 +54,13 @@ table {
   margin:auto;
   padding-top: 40px;
 }
+.column {
+  display: inline-block;
+  width: 45%; /* Adjust width as needed */
+  vertical-align: top; /* Align columns to the top */
+  margin-right: 5%; /* Add some spacing between columns */
+}
+#pricing, #shuttle {
+  border: 1px solid #ccc; /* Add borders to the content for better separation */
+  padding: 10px;
+}
