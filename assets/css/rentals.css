@@ -10,9 +10,7 @@
   padding: 0%;
 }
 
-#banner h1 {
-  font-size: 80px;
-}
+
 
 #carousel {
   background: none;
@@ -22,6 +20,7 @@
 #plink {
   text-align: center;
   font-size: 20px;
+  margin-top: 20px;
 }
 
 #overview h2 {
@@ -54,6 +53,7 @@ table {
   margin:auto;
   padding-top: 40px;
 }
+<<<<<<< HEAD
 .column {
   display: inline-block;
   width: 45%; 
@@ -64,3 +64,9 @@ table {
   border: 1px solid #ccc; /* Add borders to the content for better separation */
   padding: 10px;
 }
+=======
+
+.buttonhp{
+  margin-top: -25px;
+}
+>>>>>>> a648397024ab9b346edb50ef07ed1e5b99829d73

@@ -1,4 +1,47 @@
 #topcontent {
-    background-image: none;
-    height: 25vh;
-  }
+  background-image: none;
+  height: 25vh;
+}
+
+.container-fluid{
+  background-color: #566c2b;
+ 
+}
+.navbar{
+  padding: 0%;
+}
+
+.logocenter{
+  width: 500px;
+  height: 500px;
+  display: block;
+  margin:auto;
+  margin-top:40px;
+  margin-bottom:40px;
+}
+
+#bh1, #bh2, #bh3, #bh4{
+  width: 325px;
+  height: 275px;
+}
+
+#bh1, #bh3{
+text-decoration: none;
+background-image: none;
+color: black;
+}
+
+#bh2, #bh4{
+  background-image: url(https://placehold.co/325x275);
+}
+
+.historyp {
+  max-width: 1000px;
+  margin: auto;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+#overview{
+  width: 70vw;
+}
