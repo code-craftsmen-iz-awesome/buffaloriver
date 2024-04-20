@@ -130,8 +130,11 @@ body {
   font-family: "Fira Sans", sans-serif;
   font-weight: 500;
   font-style: normal;
+  
 }
-
+main {
+  padding: 40px;
+}
 a {
   color: white;
 }
@@ -149,6 +152,7 @@ a {
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.25);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.25);
+  
 }
 
 .nav-link {
@@ -180,6 +184,24 @@ a {
   text-shadow: 4px 4px 8px #566c2b;
   text-transform: uppercase;
 }
+.carousel {
+  margin-bottom: 4rem;
+}
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+.carousel-item {
+  height: 90vh;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 90vh;
+}
+
 #mbanner h1{
   font-size: 100px;
 }
@@ -191,9 +213,6 @@ a {
   margin: auto;
   margin-top: -30px;
   border-radius: 10px;
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.25);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.25);
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.25);
 }
 
 #overview {
@@ -205,12 +224,9 @@ a {
   padding: 20px;
   margin-top: 40px;
   border-radius: 10px;
-<<<<<<< HEAD
   font-size: 20px;
 }
-p {
-  width: 70vw;
-}
+
 
 #overview h2 {
   text-align: center;
@@ -295,6 +311,27 @@ p {
   background-size: cover;
   border-radius: 5px;
 }
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 50rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
 
 #carouselwrapper {
   background-color: grey;
@@ -374,71 +411,6 @@ footer a {
   margin: 0%;
   color: black;
 }
-<<<<<<< HEAD
-=======
-/* Modal */
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
-}
-
-.modal-content {
-  background-color: #fefefe;
-  margin: 10% auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
-  max-width: 600px;
-}
-
-.close {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-}
-
-label {
-  margin-bottom: 5px;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-  padding: 10px;
-  margin-bottom: 10px;
-}
-
-button[type="submit"] {
-  padding: 10px 20px;
-  background-color: #4caf50;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-button[type="submit"]:hover {
-  background-color: #45a049;
-}
->>>>>>> a648397024ab9b346edb50ef07ed1e5b99829d73
 
 /*Media Queries*/
 
