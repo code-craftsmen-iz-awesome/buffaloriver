@@ -15,7 +15,18 @@
 #msg{
     display: none;
 }
-
+header.secondary {
+    background-image: url("../resources/img/waterlevel.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    );
+}
+header.secondary h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 100px;
+}
   #overview{
     width: fit-content;
     height: fit-content;
