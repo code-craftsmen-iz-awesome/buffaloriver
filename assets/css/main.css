@@ -171,6 +171,7 @@ a {
   background-position: center;
   background-size: cover;
   height: 90vh;
+  
 }
 #mbanner {
   color: white;
@@ -370,6 +371,7 @@ footer {
   margin-top: 40px;
   height: 270px;
   color: black;
+  border-top: 10px solid #946c13
 }
 
 #brandimg {

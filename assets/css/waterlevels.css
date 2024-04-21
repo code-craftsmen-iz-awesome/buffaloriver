@@ -20,7 +20,7 @@ header.secondary {
     background-size:cover;
     background-repeat: no-repeat;
     height: 70vh;
-    );
+    border-bottom: 10px solid #946c13;
 }
 header.secondary h1{
     color: white;
