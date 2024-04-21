@@ -16,7 +16,9 @@
   max-width: 1000px;
   margin: auto;
 }
-
+.iframe {
+  text-align: center;
+}
 #overview{
   width: 70vw;
   margin-bottom: 350px;
