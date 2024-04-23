@@ -15,13 +15,14 @@
 #msg{
     display: none;
 }
-header.secondary {
+/*header.secondary {
     background-image: url("../resources/img/waterlevel.jpg");
-    background-size:cover;
+    background-size:auto 150%;
     background-repeat: no-repeat;
+    background-position: 50% 0;
     height: 70vh;
     border-bottom: 10px solid #946c13;
-}
+}*/
 header.secondary h1{
     color: white;
     text-transform: uppercase;

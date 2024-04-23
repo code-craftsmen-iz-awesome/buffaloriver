@@ -117,20 +117,17 @@ html {
 *:after {
   box-sizing: inherit;
 }
-.container{
-  margin:auto;
-  padding:40px;
+.container {
+  margin: auto;
+  padding: 40px;
 }
-img{
-  max-width:100%;
-  height:auto;
+img {
+  max-width: 100%;
+  height: auto;
 }
 body {
   background-color: #d4d4ad;
-  font-family: "Fira Sans", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  
+  background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox='0 0 100 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M21.184 20c.357-.13.72-.264 1.088-.402l1.768-.661C33.64 15.347 39.647 14 50 14c10.271 0 15.362 1.222 24.629 4.928.955.383 1.869.74 2.75 1.072h6.225c-2.51-.73-5.139-1.691-8.233-2.928C65.888 13.278 60.562 12 50 12c-10.626 0-16.855 1.397-26.66 5.063l-1.767.662c-2.475.923-4.66 1.674-6.724 2.275h6.335zm0-20C13.258 2.892 8.077 4 0 4V2c5.744 0 9.951-.574 14.85-2h6.334zM77.38 0C85.239 2.966 90.502 4 100 4V2c-6.842 0-11.386-.542-16.396-2h-6.225zM0 14c8.44 0 13.718-1.21 22.272-4.402l1.768-.661C33.64 5.347 39.647 4 50 4c10.271 0 15.362 1.222 24.629 4.928C84.112 12.722 89.438 14 100 14v-2c-10.271 0-15.362-1.222-24.629-4.928C65.888 3.278 60.562 2 50 2 39.374 2 33.145 3.397 23.34 7.063l-1.767.662C13.223 10.84 8.163 12 0 12v2z' fill='%23dbdbba' fill-opacity='0.48' fill-rule='evenodd'/%3E%3C/svg%3E");  font-style: normal;
 }
 main {
   padding: 40px;
@@ -156,10 +153,9 @@ a {
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.25);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.25);
-  
 }
 
-.mainnavbar{
+.mainnavbar {
   -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
   -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
@@ -180,29 +176,29 @@ a {
   background-image: url(../resources/img/homepage_header_img.jpg);
   background-position: center;
   background-size: cover;
-  height: 90vh;
+  height: 80vh;
 }
 
-.description{
+.description {
   max-width: 1250px;
   margin: auto;
 }
 
-.description2{
+.description2 {
   max-width: 700px;
   margin: auto;
 }
 
-.destop{
-text-align: right;
-margin-right: 0%;
+.destop {
+  text-align: right;
+  margin-right: 0%;
 }
 
-.desbottom{
+.desbottom {
   margin-left: 0%;
 }
 
-#desbottomimg{
+#desbottomimg {
   display: block;
   margin: auto;
   margin-right: 0%;
@@ -211,15 +207,13 @@ margin-right: 0%;
 
 #mbanner {
   color: white;
-  position: absolute;
-  top: 65%; 
-  left: 70%; 
-  transform: translate(-20%, -50%);  
-  color: #fff; 
-  padding: 10px 20px; 
+  color: #fff;
+  padding: 10px 20px;
   text-align: right;
   text-shadow: 4px 4px 8px #566c2b;
   text-transform: uppercase;
+  margin-top: 250px;
+  margin-right: 30px;
 }
 .carousel {
   margin-bottom: 4rem;
@@ -239,7 +233,7 @@ margin-right: 0%;
   height: 90vh;
 }
 
-#mbanner h1{
+#mbanner h1 {
   font-size: 100px;
 }
 #banner {
@@ -259,11 +253,10 @@ margin-right: 0%;
   width: 90vw;
   margin: auto;
   padding: 20px;
-  margin-top: 40px;
+  margin-top: 20px;
   border-radius: 10px;
   font-size: 20px;
 }
-
 
 #overview h2 {
   text-align: center;
@@ -369,7 +362,6 @@ margin-right: 0%;
   height: 32rem;
 }
 
-
 #carouselwrapper {
   background-color: grey;
   width: 90vw;
@@ -407,7 +399,6 @@ footer {
   margin-top: 40px;
   height: 270px;
   color: black;
-  border-top: 10px solid #946c13
 }
 
 #brandimg {
@@ -450,19 +441,35 @@ footer a {
   color: black;
 }
 
-.weatherWidget{
+.weatherWidget {
   min-width: 350px;
-  max-width: 750px;
+  max-width: 730px;
   margin: auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding-left: 15px;
+  padding-right:15px;
 }
 
-.destoph2{
+.destoph2 {
   text-align: right;
 }
 
-#featurettetop{
+#featurettetop {
   margin: auto;
-  margin-right: 0;
+ 
+}
+
+.featurette{
+  max-width: 1500px;
+  margin: auto;
+}
+
+svg{
+  max-width: 1200px;
+  min-width: 200px;
+  margin:auto;
+  margin-top: 50px;
 }
 
 /*Media Queries*/
@@ -486,13 +493,6 @@ footer a {
 
   .nav-link {
     font-size: 18px;
-  }
-}
-
-@media screen and (max-height: 700px) {
-  .brandlogo {
-    margin-top: 0%;
-    margin-left: 0%;
   }
 }
 
@@ -520,4 +520,3 @@ footer a {
     height: 200px;
   }
 }
-
