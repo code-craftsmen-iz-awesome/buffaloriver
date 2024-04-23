@@ -381,7 +381,7 @@ footer {
   padding: 20px;
   margin-top: 40px;
   height: 300px;
-  color: black;
+  color: white;
 }
 
 #brandimg {
@@ -406,7 +406,7 @@ footer {
 footer a {
   margin: 5px;
   text-decoration: underline;
-  color: black;
+  color: white;
 }
 
 #footercopy {
@@ -416,12 +416,12 @@ footer a {
 
 #footercopy a {
   margin-left: 5px;
-  color: black;
+  color: white;
 }
 
 #footercopy p {
   margin: 0%;
-  color: black;
+  color: white;
 }
 
 .weatherWidget {
