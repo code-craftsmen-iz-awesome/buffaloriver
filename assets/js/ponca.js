@@ -46,11 +46,11 @@ async function GetPonca() {
       labels: dates,
       datasets: [
         {
-          label: siteDescription + " at " + sitename,
+          label: "Water Level (feet)" + " on the " + sitename,
           data: values,
-          fill: false,
-          borderColor: "rgb(75, 192, 192)",
+          fill: true,
           tension: 0.1,
+          backgroundColor: "rgb(92, 159, 155, 0.3)",
           
         },
       ],

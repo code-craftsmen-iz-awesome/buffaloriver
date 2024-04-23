@@ -41,17 +41,17 @@ async function GetBoxley() {
     var ctx = document.getElementById("chartjs-0");
   
     var myChart = new Chart(ctx, {
-      type: "bar",
+      type: "line",
       data: {
         labels: dates,
         datasets: [
           {
-            label:
-              siteDescription + " at " + sitename,
+            label: "Water Level (feet)" + " on the " + sitename,
             data: values,
-            fill: false,
-            borderColor: "blue",
-            lineTension: 0.1,
+            fill: true,
+            tension: 0.1,
+            backgroundColor: "rgb(92, 159, 155, 0.3)",
+            
           },
         ],
       },
@@ -59,6 +59,5 @@ async function GetBoxley() {
         responsive: false,
         maintainAspectRatio: true,
       },
-    });    
-  
+    });
   }
