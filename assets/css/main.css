@@ -121,7 +121,7 @@ html {
   margin:auto;
   padding:40px;
 }
-imag{
+img{
   max-width:100%;
   height:auto;
 }
@@ -137,6 +137,10 @@ main {
 }
 a {
   color: white;
+}
+
+.navbar {
+  padding: 0%;
 }
 
 .bg-transparent {
@@ -155,6 +159,12 @@ a {
   
 }
 
+.mainnavbar{
+  -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
 .nav-link {
   color: white;
   font-size: 25px;
@@ -171,8 +181,34 @@ a {
   background-position: center;
   background-size: cover;
   height: 90vh;
-  
 }
+
+.description{
+  max-width: 1250px;
+  margin: auto;
+}
+
+.description2{
+  max-width: 700px;
+  margin: auto;
+}
+
+.destop{
+text-align: right;
+margin-right: 0%;
+}
+
+.desbottom{
+  margin-left: 0%;
+}
+
+#desbottomimg{
+  display: block;
+  margin: auto;
+  margin-right: 0%;
+  margin-left: 0%;
+}
+
 #mbanner {
   color: white;
   position: absolute;
@@ -219,7 +255,7 @@ a {
 #overview {
   text-align: left;
   width: fit-content;
-  height: fit-content;=
+  height: fit-content;
   width: 90vw;
   margin: auto;
   padding: 20px;
@@ -412,6 +448,21 @@ footer a {
 #footercopy p {
   margin: 0%;
   color: black;
+}
+
+.weatherWidget{
+  min-width: 350px;
+  max-width: 750px;
+  margin: auto;
+}
+
+.destoph2{
+  text-align: right;
+}
+
+#featurettetop{
+  margin: auto;
+  margin-right: 0;
 }
 
 /*Media Queries*/

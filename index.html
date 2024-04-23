@@ -28,7 +28,7 @@
     <div id="topcontent">
       <!--Nav Bar Start-->
       <nav class="navbar navbar-expand-md bg-transparent navbar-custom">
-        <div class="container-fluid">
+        <div class="container-fluid mainnavbar">
           <a class="navbar-brand" href="index.html">
           <img
             class="brandlogo"
@@ -67,9 +67,9 @@
     <main>
     <div id="mbanner"><h1>Welcome to 153 Outfitters</h1></div>
     <!--Banner End-->
-    <!-- the DIV that will contain the widget -->
-<div class="weatherWidget" ></div>
 
+    <!-- Weather Start -->
+<div class="weatherWidget" ></div>
 <script>
    window.weatherWidgetConfig =  window.weatherWidgetConfig || [];
    window.weatherWidgetConfig.push({
@@ -90,10 +90,12 @@
    (d.head || d.body).appendChild(s);
    })();
 </script>
+ <!-- Weather End -->
+
     <!--Overview Start-->
     <div id="overview">
       <h2>Come Join Us!</h2>
-      <p>
+      <p class="description">
         At 153 Outfitters, we're more than just a destination – we're a <strong>state of mind</strong>. 
         We invite you to leave behind the hustle and bustle of daily life and immerse yourself in the simple pleasures of nature. 
         Whether you're seeking solace in solitude, forging deeper connections with loved ones, or simply seeking to rediscover the joy of being present in the moment, we're here to help you make the most of your outdoor adventure. 
@@ -140,10 +142,10 @@
     </div>
       <hr class="featurette-divider">
   
-      <div class="row featurette">
+      <div class="row featurette" id="featurettetop">
         <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-          <p class="lead">Located in northern Arkansas, Buffalo River National Park is a haven for nature lovers and outdoor enthusiasts alike. Carving its way through the stunning Ozark Mountains, the Buffalo River offers unparalleled opportunities for canoeing, kayaking, fishing, hiking, and camping.</p>
+          <h2 class="featurette-heading destoph2">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
+          <p class="lead description2 destop">Located in northern Arkansas, Buffalo River National Park is a haven for nature lovers and outdoor enthusiasts alike. Carving its way through the stunning Ozark Mountains, the Buffalo River offers unparalleled opportunities for canoeing, kayaking, fishing, hiking, and camping.</p>
         </div>
         <div class="col-md-5">
           <img src="assets/resources/img/gather2.jpg" width="auto" height="400" xmlns="http://www.w3.org/2000/svg" role="img" alt="gathering at the river" />
@@ -152,13 +154,13 @@
   
       <hr class="featurette-divider">
   
-      <div class="row featurette">
+      <div class="row featurette" id="featurettebottom">
         <div class="col-md-7 order-md-2">
           <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Designated as America's first national river, Buffalo River National Park boasts breathtaking scenery, including towering limestone bluffs, lush forests, and crystal-clear waterways. Visitors can explore over a hundred miles of pristine river corridor, immersing themselves in the tranquility of one of the last undammed rivers in the contiguous United States.</p>
+          <p class="lead description2 desbottom">Designated as America's first national river, Buffalo River National Park boasts breathtaking scenery, including towering limestone bluffs, lush forests, and crystal-clear waterways. Visitors can explore over a hundred miles of pristine river corridor, immersing themselves in the tranquility of one of the last undammed rivers in the contiguous United States.</p>
         </div>
         <div class="col-md-5 order-md-1">
-          <img src="assets/resources/img/foggy.jpg" width="650" height="500" role="img" alt="Buffalo River foggy"/>
+          <img src="assets/resources/img/foggy.jpg" width="auto" height="400" role="img" alt="Buffalo River foggy" id="desbottomimg"/>
   
         </div>
       </div>
