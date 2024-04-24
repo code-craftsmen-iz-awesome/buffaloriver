@@ -10,15 +10,8 @@
     padding: 0%;
   }
   
-  
-  
-  #carousel {
-    background: none;
-    margin-top: 40px;
-  }
-  
   #plink {
-    text-align: center;
+   
     font-size: 20px;
     margin-top: 60px;
   }
@@ -32,32 +25,30 @@
     justify-content: center;
   }
   
-  #overview.amenities {
-    background-color: #946c13;
-  }
-  
-  #amenitiesp {
-    max-width: 870px;
-    margin: auto;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  li {
-    display: flex;
-    justify-content: center;
-  }
-  #overview.amenities td{
-    padding-right:50px;
-  }
-  
   .buttonhp{
-    margin-top: -25px;
+    margin-top: -45px;
   }
 
   img{
     margin: auto;
   }
 
-  #caro{
-    margin-right: 200px;
+  .shuttlep{
+    max-width:450px;
+    margin: auto;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
+  
+  .shuttleh, .pricingh{
+    margin: auto;
+    text-align: center;
+  }
+  
+  .pricingh{
+    margin-bottom: 5px;
+  }
+
+
+  
