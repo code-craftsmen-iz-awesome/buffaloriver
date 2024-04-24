@@ -11,7 +11,6 @@
     padding: 0%;
 }
 
-
 .history {
   max-width: 1000px;
   margin: auto;
@@ -21,7 +20,21 @@
 }
 #overview{
   width: 70vw;
-  margin-bottom: 350px;
+  margin-bottom: 200px;
 }
 
+@media screen and (max-width:660px){
+  .historyp{
+    font-size: 15px;
+  }
+}
 
+@media screen and (max-width:450px){
+  .historyp{
+    font-size: 12px;
+  }
+}
+
+iframe{
+  margin-top:20px;
+}

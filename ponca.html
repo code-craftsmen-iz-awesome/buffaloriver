@@ -23,6 +23,9 @@
     />
     <link href="assets/css/main.css" rel="stylesheet" />
     <link href="assets/css/waterlevels.css" rel="stylesheet" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/resources/other/apple-icon-180x180.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/resources/other/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/resources/other/favicon-16x16.png" />
   </head>
   <body onload="GetPonca()">
     <div id="topcontent">
@@ -66,9 +69,32 @@
     <!--Banner Start-->
     <div id="banner"><h1>Water Levels - Ponca</h1></div>
     <!--Banner End-->
+        <!-- Weather Start -->
+<div class="weatherWidget" ></div>
+<script>
+   window.weatherWidgetConfig =  window.weatherWidgetConfig || [];
+   window.weatherWidgetConfig.push({
+       selector:".weatherWidget",
+       apiKey:"8AY8NSBH2FTU8WSB8M9WZXM9F", //Sign up for your personal key
+       location:"AR-43, Compton, AR 72624", //Enter an address
+       unitGroup:"us", //"us" or "metric"
+       forecastDays:5, //how many days forecast to show
+       title:"Current Weather at 153 Outfitters", //optional title to show in the 
+       showTitle:true, 
+       showConditions:true
+   });
+  
+   (function() {
+   var d = document, s = d.createElement('script');
+   s.src = 'https://www.visualcrossing.com/widgets/forecast-simple/weather-forecast-widget-simple.js';
+   s.setAttribute('data-timestamp', +new Date());
+   (d.head || d.body).appendChild(s);
+   })();
+</script>
+ <!-- Weather End -->
     <!--Overview Start-->
     <div id="overview">
-      <canvas id="chartjs-0" width="800" height="500"></canvas>
+      <canvas id="chartjs-0" width="500" height="500"></canvas>
       <div id="msg"></div>
     </div>
     <!--Overview End-->
@@ -97,6 +123,7 @@
     <!--Buttons End-->
 
     <!--Footer Start-->
+
     <footer class="">
       <div id="footerinline">
         <!--Footer Nav Start-->
@@ -112,13 +139,11 @@
         <!--Footer Nav End-->
         <!--Branding Start-->
         <div id="brand">
-          <a href="https://www.nps.gov/buff/index.htm">
           <img
             class="brandimgpark"
             id="brandimg"
             src="assets/resources/other/brandlogopark.png"
           />
-          </a>
         </div>
         <!--Branding End-->
         <!--Map Start-->
@@ -141,6 +166,7 @@
     </div>
 
     <!--Footer End-->
+    
     <script src="assets/js/ponca.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
