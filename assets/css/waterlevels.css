@@ -54,17 +54,47 @@ header.secondary h1{
        }
 
        canvas{
-        width:300px;
-        height: 300px;
+        width:500px;
+        height: 500px;
+       }
+
+       #overview{
+        padding:5px;
        }
   }
 
   @media screen and (max-width: 540px) {
 
        canvas{
-        width:250px;
-        height: 250px;
+        width:400px;
+        height: 400px;
        }
       
   }
  
+  @media screen and (max-width: 440px) {
+
+    canvas{
+     width:350px;
+     height: 350px;
+    }
+   
+}
+
+@media screen and (max-width: 385px) {
+
+    canvas{
+     width:300px;
+     height: 300px;
+    }
+   
+}
+
+@media screen and (max-width: 330px) {
+
+    canvas{
+     width:250px;
+     height: 240px;
+    }
+   
+}
